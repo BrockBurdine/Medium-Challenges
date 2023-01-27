@@ -1,4 +1,9 @@
-function falsyOrTruthy(elem1, elem2) {
-  return !elem1 ? elem1 : elem2;
+function progressiveSum(num) {
+  let sum = 0;
+  for (let i = 1; i <= num; ++i) {
+    sum = sum + i;
+  }
+  return sum
 }
-console.log(falsyOrTruthy(0, 5));
+
+console.log(progressiveSum(3));
