@@ -1,11 +1,8 @@
 function reverseString(str) {
-  let reverseString = '';
-  for (let i = 0; i < str.length; ++i) {
-    // This is how you loop through every character in a string
+  let reverseString = "";
+  for (let i = str.length; i >= 0; --i) {
     console.log(str[i]);
-    reverseString = str[i] + reverseString;
   }
-  return reverseString;
 }
-console.log(reverseString("abc"));
-// turning abc into "cba"
+
+console.log(reverseString('abc'))
