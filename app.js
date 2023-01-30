@@ -1,8 +1,5 @@
 function reverseString(str) {
-  let reverseString = "";
-  for (let i = str.length; i >= 0; --i) {
-    console.log(str[i]);
-  }
+  return str.split('').reverse().join('')
 }
 
 console.log(reverseString('abc'))
