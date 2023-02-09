@@ -4,4 +4,4 @@ function convertToZeros(num1, num2, num3) {
   }
 }
 
-console.log(convertToZeros(5, 100, 70));
+console.log(convertToZeros(50, 100, 70));
